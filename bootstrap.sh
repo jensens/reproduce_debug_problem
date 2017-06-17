@@ -9,6 +9,7 @@ env/bin/pip install --upgrade pip setuptools
 env/bin/pip install -e ".[testing]"
 
 # Run your project's tests.
+# this is expected to fail
 env/bin/pytest
 
 # Run your project.
