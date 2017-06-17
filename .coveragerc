@@ -1,0 +1,3 @@
+[run]
+source = reproduce_debug_problem
+omit = reproduce_debug_problem/test*
