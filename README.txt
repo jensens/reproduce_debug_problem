@@ -1,29 +1,7 @@
 Reproduce Debug Problem
 =======================
 
-Getting Started
----------------
+This is a very simple cookiecutter scaffold with one change:
+It raises a ValueError in the view in order to invoke the debug toolbar.
 
-- Change directory into your newly created project.
-
-    cd reproduce_debug_problem
-
-- Create a Python virtual environment.
-
-    python3 -m venv env
-
-- Upgrade packaging tools.
-
-    env/bin/pip install --upgrade pip setuptools
-
-- Install the project in editable mode with its testing requirements.
-
-    env/bin/pip install -e ".[testing]"
-
-- Run your project's tests.
-
-    env/bin/pytest
-
-- Run your project.
-
-    env/bin/pserve development.ini
+The bootstrap.py shows how it was installed.
